@@ -37,6 +37,109 @@
 			<scope>test</scope>
 		</dependency>
 		
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		
+		<dependency>
+				<!-- spring security dependency injecting-->
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>3.2.4</version>
+		</dependency>
+		
+		<!--................... jwt dependency........................................................-->
+		
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>  jjwt-api   </artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+		</dependency>
+		
+		<!-- end of this dependency......................................................................-->
+<!--		 <dependency>-->
+<!--            <groupId>org.springframework.security</groupId>-->
+<!--            <artifactId>spring-security-web</artifactId>-->
+            
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.security</groupId>-->
+<!--            <artifactId>spring-security-config</artifactId>-->
+            
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.security</groupId>-->
+<!--            <artifactId>spring-security-taglibs</artifactId>-->
+            
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context</artifactId>-->
+            
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>org.springframework</groupId>-->
+<!--            <artifactId>spring-context-support</artifactId>-->
+            
+<!--        </dependency>-->
+
+		
+		<!-- end of spring security................................................-->
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.session</groupId>-->
+<!--			<artifactId>spring-session-core</artifactId>-->
+<!--		</dependency>-->
+		
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.session</groupId>-->
+<!--			<artifactId>spring-session-jdbc</artifactId>-->
+<!--		</dependency>-->
+		
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-jdbc</artifactId>-->
+<!--			<version>3.2.4</version>-->
+<!--		</dependency>-->
+		
+<!--		<dependency>-->
+<!--        <groupId>org.springframework.session</groupId>-->
+<!--        <artifactId>spring-session-data-redis</artifactId>-->
+<!--        </dependency>-->
+		
+	
+		
+		
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-data-redis</artifactId>-->
+<!--			<version>3.2.4</version>-->
+<!--		</dependency>-->
+		
+<!--		<dependency>-->
+<!--			<groupId>redis.clients</groupId>-->
+<!--			<artifactId>jedis</artifactId>-->
+<!--			<version>3.3.0</version>-->
+<!--	</dependency>-->
+		
+<!--		<dependency>-->
+<!--    <groupId>org.springframework.boot</groupId>-->
+<!--    <artifactId>spring-boot-starter-thymeleaf</artifactId>-->
+<!--    <version>3.2.2</version>-->
+<!--</dependency>-->
+
+		
+		
 	<dependency>
     <groupId>io.springfox</groupId>
     <artifactId>springfox-swagger2</artifactId>
@@ -54,7 +157,8 @@
     <artifactId>spring-security-crypto</artifactId>
     </dependency>
    
-		
+   
+   
 	</dependencies>
 
 	<build>
